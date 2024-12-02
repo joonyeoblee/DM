@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 63d5b10e074690a4896e879b8782cf0b
+timeCreated: 1481127072
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Concrete_Rubble_B.mat
+  uploadId: 637932

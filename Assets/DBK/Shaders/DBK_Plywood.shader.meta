@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9ae015ff329a8c745a12726592e5b6bc
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ColorTheme: {fileID: 2800000, guid: a32069a720abdd54197636040b9ff88f, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 04d81ebac7469fd4f914698f8d42bae3, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: 86aa9166f25685443af56f01a5e6ca8a, type: 3}
+  - _PlywoodNM: {fileID: 2800000, guid: 76e5ce818444e0d4c99809e43e58eebe, type: 3}
+  - _PlywoodDamageNM: {fileID: 2800000, guid: b1c6f48ae52428445954efaf41a87b35, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Plywood.shader
+  uploadId: 637932

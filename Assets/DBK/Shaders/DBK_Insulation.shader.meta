@@ -1,0 +1,20 @@
+fileFormatVersion: 2
+guid: 410f1ecf05079be4f927984b3da9d223
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _InsulationMask: {fileID: 2800000, guid: 722ccb4026ebf614da8f4e012f433fa2, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 4e4a83f3dfdcd8445835fa14af43fa31, type: 3}
+  - _Normals: {fileID: 2800000, guid: 1e6a95fe5438e044e80289142eedf514, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Insulation.shader
+  uploadId: 637932

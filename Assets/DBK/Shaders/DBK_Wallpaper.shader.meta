@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: bea1cae23c1bf1b41bc70b8e490dd22d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ColorTheme: {fileID: 2800000, guid: a4547a6a35e23814ab82698a0f3f7d4a, type: 3}
+  - _PatternTexture: {fileID: 2800000, guid: 1676207b8d1aab0408ea1a16aa263bfc, type: 3}
+  - _RGBA_Mask_B: {fileID: 2800000, guid: 3134e140cac552146a35a689f8f93bab, type: 3}
+  - _RGBA_Mask_A: {fileID: 2800000, guid: e6ac9406856f8bf4e85d66e726dbe060, type: 3}
+  - _MainTex: {fileID: 2800000, guid: be41953d2ca4b0b4f89e06fdbeeda334, type: 3}
+  - _WallpaperNM: {fileID: 2800000, guid: 5a27fac40c9b3844c8307dd41bde1736, type: 3}
+  - _WallpaperDamageNM: {fileID: 2800000, guid: 0da19aae1d657d543b1ed240be84f780,
+      type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Wallpaper.shader
+  uploadId: 637932

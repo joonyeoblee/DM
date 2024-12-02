@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ff93320a700d524f9b37f661f84eabe
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Brick_Drywall/DBK_BrickDrywall_Side_B.prefab
+  uploadId: 637932

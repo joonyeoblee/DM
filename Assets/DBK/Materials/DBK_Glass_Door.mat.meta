@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b10c3cd90961d34429628097ce21165f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Glass_Door.mat
+  uploadId: 637932

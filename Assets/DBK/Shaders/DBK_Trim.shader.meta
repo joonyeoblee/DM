@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 42ee4c95bdc52cb40b577f5fc0b3e1df
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _TrimColor: {fileID: 2800000, guid: 816c45ae0964c3d42bbd916a2f565c9e, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 425d0feaa38f0fd449bee195ba67b938, type: 3}
+  - _RGBAMaskA: {fileID: 2800000, guid: 5e4e6254e4e8db64fb7226f12b796911, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: e1a2b2c9d4b4fed4f9acd14a4be621d7, type: 3}
+  - _TrimNM: {fileID: 2800000, guid: 68cf8deba28c36148b2fdf4dd8335ef2, type: 3}
+  - _TrimDamageNM: {fileID: 2800000, guid: ccf0b02cf17b2be4fa3753f1a5083c1c, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Trim.shader
+  uploadId: 637932

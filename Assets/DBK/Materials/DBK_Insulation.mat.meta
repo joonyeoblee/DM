@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aaebd8da94c22384e803f9ac46760ba0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Insulation.mat
+  uploadId: 637932

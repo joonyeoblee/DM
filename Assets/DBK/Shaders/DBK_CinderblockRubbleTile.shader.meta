@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 391ce1576fa7d8e44bd387197d323242
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex1: {fileID: 2800000, guid: 42e76383800765b4883fbf88468d3d60, type: 3}
+  - _MaskB: {fileID: 2800000, guid: 5b71a3cf759201643b7d66aa9084dbd4, type: 3}
+  - _MainTex: {fileID: 2800000, guid: fb0e05ef0dc56c643af47507dafa28c9, type: 3}
+  - _BrickTileNM: {fileID: 2800000, guid: dc820580967230744910ba914b8a57f2, type: 3}
+  - _DetailsNM: {fileID: 2800000, guid: 4ea5083d09e1aa747b5ad9a32ad2cb74, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_CinderblockRubbleTile.shader
+  uploadId: 637932

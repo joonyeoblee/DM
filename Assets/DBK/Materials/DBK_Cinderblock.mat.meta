@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: abca6ad96e907514db922642ba491a7d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Cinderblock.mat
+  uploadId: 637932

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 39707cdf0509d4745a192cb9f2f53584
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Sample Buildings/DBK_BrickMedium_Building.prefab
+  uploadId: 637932

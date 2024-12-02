@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 42a92c52fcc51a7478ec01ce61e3e09a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Pattern: {fileID: 2800000, guid: 01e3ac9ffafa5b34f830c98b19e0e384, type: 3}
+  - _MainTex: {fileID: 2800000, guid: afc3fc4ad6ff2594abf8b82f1071e28f, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: 2336892881a6bbd4ab5698bd21876f7c, type: 3}
+  - _RGBAMaskC: {fileID: 2800000, guid: ebaf393a176609441b3b578b1ebcdc5e, type: 3}
+  - _RGBAMaskA: {fileID: 2800000, guid: ef4f2e343c18d7b41a0c058777bd28da, type: 3}
+  - _NormalGood: {fileID: 2800000, guid: 389fd9279fe1c704dacbb1453299af06, type: 3}
+  - _NormalDamage: {fileID: 2800000, guid: b7ec0014e820a4c4b8c0ce2bbab75c9c, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Tile.shader
+  uploadId: 637932

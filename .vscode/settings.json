@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "DMong.sln"
+    "dotnet.defaultSolution": "DM.sln"
 }

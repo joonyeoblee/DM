@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df69a04e841e51646bb69beb3589230b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Cinderblock_Rubble.mat
+  uploadId: 637932

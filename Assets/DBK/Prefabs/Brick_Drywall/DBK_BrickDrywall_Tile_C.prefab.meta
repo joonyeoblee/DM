@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: cfd9733de10c7bf44be5019f6819e151
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Brick_Drywall/DBK_BrickDrywall_Tile_C.prefab
+  uploadId: 637932

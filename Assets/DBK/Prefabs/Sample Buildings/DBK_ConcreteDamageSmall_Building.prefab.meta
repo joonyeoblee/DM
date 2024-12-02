@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 36706c35a17881a468241faaf686a4ad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Sample Buildings/DBK_ConcreteDamageSmall_Building.prefab
+  uploadId: 637932

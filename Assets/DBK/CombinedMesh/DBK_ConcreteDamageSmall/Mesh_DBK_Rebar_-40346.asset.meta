@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a7ca2ef452bfb6948870490cfa0869a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4300000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/CombinedMesh/DBK_ConcreteDamageSmall/Mesh_DBK_Rebar_-40346.asset
+  uploadId: 637932

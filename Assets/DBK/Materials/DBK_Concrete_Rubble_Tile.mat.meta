@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4bb15680c484c7e419fe40312d79aa31
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Materials/DBK_Concrete_Rubble_Tile.mat
+  uploadId: 637932

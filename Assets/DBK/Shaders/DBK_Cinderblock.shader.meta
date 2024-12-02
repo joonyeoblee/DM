@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 634c1cda87ed82548944703f7062bae9
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: fb0e05ef0dc56c643af47507dafa28c9, type: 3}
+  - _RGBAMaskA: {fileID: 2800000, guid: c5b8bd607021dc54688766ddf7b34f7e, type: 3}
+  - _RGBAMaskC: {fileID: 2800000, guid: fc4a808ec7c4a64449ce82e3dde090ed, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: 36dc5c35c19ead2438f7384c005c4dec, type: 3}
+  - _PaintNM: {fileID: 2800000, guid: 627acaa140421924586f777a2c9b082e, type: 3}
+  - _PaintDamageNM: {fileID: 2800000, guid: d1d411d7a31f14d49b99e9c1fa51f3c4, type: 3}
+  - _TransitionNM: {fileID: 2800000, guid: 58b2fbb6335706a479441801837ecb0e, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Cinderblock.shader
+  uploadId: 637932

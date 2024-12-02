@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 497cbc9da6fdaaf43abf815a5d5608a3
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Concrete_Tile_Floor/DBK_Concrete_Tile_Floor_Tile_C.prefab
+  uploadId: 637932

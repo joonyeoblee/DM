@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc1639904da995499a6ece096c73ff1
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Prefabs/Brick_Drywall/DBK_BrickDrywall_End_B.prefab
+  uploadId: 637932

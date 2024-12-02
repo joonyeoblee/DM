@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: b6a9fb010fd34904196a8f41c3f63a9d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _ColorTheme: {fileID: 2800000, guid: bb0f9730de8f0ca408817cf80c16d43b, type: 3}
+  - _MainTex: {fileID: 2800000, guid: 1e202a45b34cf0a40a1bbdd395ef58be, type: 3}
+  - _RGBAMaskA: {fileID: 2800000, guid: 52c51b0aba2d52049a0039ac53b25058, type: 3}
+  - _DrywallNM: {fileID: 2800000, guid: 627acaa140421924586f777a2c9b082e, type: 3}
+  - _DrywallDamageNM: {fileID: 2800000, guid: 4ea5083d09e1aa747b5ad9a32ad2cb74, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Drywall.shader
+  uploadId: 637932

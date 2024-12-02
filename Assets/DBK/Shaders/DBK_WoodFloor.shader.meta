@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: b1d2e809ba19a294591e1447f1115ace
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: 82be22460a6b51b4290f4e8782e70cef, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: f231781db1f345444b87eda03c56e007, type: 3}
+  - _RGBAMaskA: {fileID: 2800000, guid: 6afe04ce43211ab4485f54e3c5396a55, type: 3}
+  - _RGBAMaskC: {fileID: 2800000, guid: a82b87e49cd04f84da5b9c8e6a307c18, type: 3}
+  - _NormalGood: {fileID: 2800000, guid: 354fbdac97090f6459e46bb63a83353a, type: 3}
+  - _NormalDamage: {fileID: 2800000, guid: 354fbdac97090f6459e46bb63a83353a, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_WoodFloor.shader
+  uploadId: 637932

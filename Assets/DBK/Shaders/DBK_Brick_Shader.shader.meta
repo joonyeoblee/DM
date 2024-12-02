@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 3ab0bfc8cd1817b4f8e3742dde1211f7
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _MainTex: {fileID: 2800000, guid: a4b54f4a931b12047a9252ab1e0b62a0, type: 3}
+  - _RGBAMaskC: {fileID: 2800000, guid: 5cd6e5fc40f342846b61030f083de2fd, type: 3}
+  - _RGBAMaskB: {fileID: 2800000, guid: 8f09dd62ab8dbe147aabae135c002c75, type: 3}
+  - _RGBA_Mask_A: {fileID: 2800000, guid: e61e67a9b8d15444a84d7d27624a2bbe, type: 3}
+  - _TextureSample3: {fileID: 2800000, guid: 5b51302e23bec5547b188ac35d9f8845, type: 3}
+  - _DBK_Brick_NM: {fileID: 2800000, guid: 5b51302e23bec5547b188ac35d9f8845, type: 3}
+  - _BrickUniqueNM: {fileID: 2800000, guid: 1a870ccd827dd9d48b79710838d14ae3, type: 3}
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Shaders/DBK_Brick_Shader.shader
+  uploadId: 637932

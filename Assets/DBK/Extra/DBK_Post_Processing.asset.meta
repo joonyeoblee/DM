@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 699a0ae20a6efb142a0040c4835108ef
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 173763
+  packageName: Destroyed Building Kit
+  packageVersion: 1.0.7
+  assetPath: Assets/DBK/Extra/DBK_Post_Processing.asset
+  uploadId: 637932
