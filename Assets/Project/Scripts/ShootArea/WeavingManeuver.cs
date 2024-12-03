@@ -19,7 +19,7 @@ namespace Strategy
             float speed = drone.speed;
             Vector3 startPosition = drone.transform.position;
             Vector3 endPosition = startPosition;
-            endPosition.x = drone.weavingDistance;
+            endPosition.x = startPosition.x - drone.weavingDistance;
 
             while (true)
             {

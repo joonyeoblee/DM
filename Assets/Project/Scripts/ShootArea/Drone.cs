@@ -15,7 +15,7 @@ namespace Strategy
         public float speed = 1.0f;
         public float maxHeight = 5.0f;
         public float weavingDistance = 1.5f;
-        public float fallbackDistance = 800.0f;
+        public float fallbackDistance = 20.0f;
 
         void Start()
         {

@@ -19,7 +19,7 @@ namespace Strategy
             float speed = drone.speed;
             Vector3 startPosition = drone.transform.position;
             Vector3 endPosition = startPosition;
-            endPosition.y = drone.maxHeight;
+            endPosition.y = startPosition.y - drone.maxHeight;
 
             while (true)
             {

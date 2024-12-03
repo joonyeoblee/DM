@@ -18,7 +18,7 @@ namespace Strategy
             float speed = drone.speed;
             Vector3 startPosition = drone.transform.position;
             Vector3 endPosition = startPosition;
-            endPosition.z = drone.fallbackDistance;
+            endPosition.z = startPosition.z + drone.fallbackDistance;
             Debug.Log("Start" + startPosition);
             Debug.Log("End" + endPosition);
 
