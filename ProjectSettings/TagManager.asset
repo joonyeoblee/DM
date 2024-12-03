@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Dead
   layers:
   - Default
   - TransparentFX
@@ -12,12 +13,12 @@ TagManager:
   - Water
   - UI
   - Grabbing
-  - Grabbable
   - Hand
+  - Restricted
+  - Player
+  - Grabbable
   - HandPlayer
-  - 
-  - 
-  - 
+  - Ground
   - 
   - 
   - 
