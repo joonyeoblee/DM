@@ -15,13 +15,4 @@ public class ClimingTrigger : MonoBehaviour
             triggered.SetActive(true);
         }
     }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.M))
-        {
-            Damageable dmg = gameObject.GetComponent<Damageable>();
-            dmg.DealDamage(100);
-        }
-    }
 }
