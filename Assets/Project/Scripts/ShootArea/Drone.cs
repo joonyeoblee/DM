@@ -17,6 +17,9 @@ namespace Strategy
         public float weavingDistance = 1.5f;
         public float fallbackDistance = 10.0f;
 
+        public delegate void DroneDestroyed(GameObject drone);
+        public event DroneDestroyed OnDestroyed;
+
         void Start()
         {
             _rayDirection =
@@ -50,6 +53,11 @@ namespace Strategy
                         _rayDirection, Color.green);
                 }
             }
+        }
+        private void OnDestroy()
+        {
+            // 드론 파괴 시 이벤트 호출
+            OnDestroyed?.Invoke(gameObject);
         }
     }
 }

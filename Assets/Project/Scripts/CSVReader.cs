@@ -11,7 +11,7 @@ public class CSVReader : MonoBehaviour
     private List<string[]> csvData = new List<string[]>(); // CSV 데이터 저장
 
     [SerializeField]
-    private Text text; // 대사를 출력할 Text UI
+    private Text[] text; // 대사를 출력할 Text UI
 
     private string rowString;
     private int currentLineIndex = 0; // 현재 출력 중인 대사 인덱스
@@ -19,7 +19,7 @@ public class CSVReader : MonoBehaviour
     void Start()
     {
         SetFilePath();
-        StartDialogue();
+        StartDialogue(0);
     }
     void SetFilePath()
     {
@@ -54,14 +54,15 @@ public class CSVReader : MonoBehaviour
         }
     }
 
-    public void StartDialogue()
+    public void StartDialogue(int index)
     {
         // 대사 출력 시작
-        StartCoroutine(DisplayDialogue());
+        StartCoroutine(DisplayDialogue(index));
+
     }
 
     // 대사를 1초마다 출력하는 코루틴
-    IEnumerator DisplayDialogue()
+    IEnumerator DisplayDialogue(int index)
     {
         // 현재 대사를 출력
         while (currentLineIndex < csvData.Count)
@@ -76,9 +77,10 @@ public class CSVReader : MonoBehaviour
                 yield break; // 코루틴 종료
             }
 
-            text.text = rowString; // UI에 대사 출력
+            text[index].text = rowString; // UI에 대사 출력
 
             currentLineIndex++;
+
             yield return new WaitForSeconds(1f); // 1초 대기 후 대사 변경
         }
     }

@@ -11,6 +11,7 @@ public class GameManager : MonoBehaviour
     [SerializeField]
 
     public GameObject player;
+    public CSVReader csvReader;
     // 싱글톤 인스턴스
     public static GameManager Instance { get; private set; }
 
