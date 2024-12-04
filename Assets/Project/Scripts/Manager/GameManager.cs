@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
 
     public int count;
     [SerializeField]
-    private GameObject[] targets;
+    public GameObject[] targets;
     [SerializeField]
 
     public GameObject player;

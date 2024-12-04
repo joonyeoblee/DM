@@ -89,11 +89,11 @@ namespace Strategy
 
         void Update()
         {
-            // if (Input.GetKeyDown(KeyCode.Space))
-            // {
-            //     OnAllDronesDestroyed();
+            if (Input.GetKeyDown(KeyCode.Alpha1))
+            {
+                OnAllDronesDestroyed();
 
-            // }
+            }
         }
         private void OnAllDronesDestroyed()
         {

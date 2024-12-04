@@ -4,15 +4,41 @@ using UnityEngine;
 
 public class PunchAreaManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    // spawne을 트리거 하기위한 count
+    [SerializeField]
+    private int count;
 
-    // Update is called once per frame
+    // spawner를 통해 움직이는 타켓 소환
+    [SerializeField]
+    private GameObject spawner;
+
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.Alpha2))
+        {
+            GameManager.Instance.csvReader.StartDialogue(1);
+
+            // 2초 뒤 두 번째 대사 출력
+            StartCoroutine(StartSecondDialogueAfterDelay());
+        }
+    }
+
+    public void AddCount()
+    {
+        count++;
+
+        if (count == 4)
+        {
+            GameManager.Instance.csvReader.StartDialogue(1);
+
+            // 2초 뒤 두 번째 대사 출력
+            StartCoroutine(StartSecondDialogueAfterDelay());
+        }
+    }
+
+    private IEnumerator StartSecondDialogueAfterDelay()
+    {
+        yield return new WaitForSeconds(2f); // 2초 대기
+        GameManager.Instance.csvReader.StartDialogue(2); // 두 번째 대사 출력
     }
 }
