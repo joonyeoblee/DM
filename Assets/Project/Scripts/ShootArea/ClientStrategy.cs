@@ -52,6 +52,7 @@ namespace Strategy
 
         public void ShootGameStart()
         {
+            Debug.Log("ShootGameStart");
             StartCoroutine(SpawnDroneCoroutine());
         }
 
