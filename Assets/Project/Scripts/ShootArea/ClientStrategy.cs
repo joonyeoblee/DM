@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Collections;
 
 namespace Strategy
 {
@@ -11,7 +12,8 @@ namespace Strategy
         private GameObject _drone;
         private List<IManeuverBehaviour> _components = new List<IManeuverBehaviour>();
 
-        private void SpawnDrone()
+        // 코루틴을 통해 1초마다 타켓 소환
+        private void SpawnDrone(int i)
         {
             if (dronePrefab == null)
             {
@@ -25,11 +27,9 @@ namespace Strategy
                 return;
             }
 
-            // 스폰 포인트 리스트에서 랜덤으로 하나 선택
-            Vector3 randomSpawnPoint = spawnPoints[Random.Range(0, spawnPoints.Count)];
 
             // 드론 생성
-            _drone = Instantiate(dronePrefab, randomSpawnPoint, Quaternion.identity);
+            _drone = Instantiate(dronePrefab, spawnPoints[i], Quaternion.identity);
 
             // 드론에 Drone 컴포넌트를 추가
             if (!_drone.GetComponent<Drone>())
@@ -38,6 +38,21 @@ namespace Strategy
             }
 
             ApplyRandomStrategies();
+        }
+
+        // 1초마다 드론을 5대까지 생성
+        IEnumerator SpawnDroneCoroutine()
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                SpawnDrone(i);
+                yield return new WaitForSeconds(1f);
+            }
+        }
+
+        public void ShootGameStart()
+        {
+            StartCoroutine(SpawnDroneCoroutine());
         }
 
         private void ApplyRandomStrategies()
@@ -50,14 +65,6 @@ namespace Strategy
             // 랜덤으로 하나의 전략을 적용
             int index = Random.Range(0, _components.Count);
             _drone.GetComponent<Drone>().ApplyStrategy(_components[index]);
-        }
-
-        void OnGUI()
-        {
-            if (GUILayout.Button("Spawn Drone"))
-            {
-                SpawnDrone();
-            }
         }
     }
 }

@@ -14,23 +14,32 @@ namespace Strategy
 
         IEnumerator Fallback(Drone drone)
         {
+
             float time = 0;
+            bool isReverse = false;
             float speed = drone.speed;
             Vector3 startPosition = drone.transform.position;
             Vector3 endPosition = startPosition;
             endPosition.z = startPosition.z + drone.fallbackDistance;
-            Debug.Log("Start" + startPosition);
-            Debug.Log("End" + endPosition);
 
-            while (time < speed)
+            while (true)
             {
-                drone.transform.position =
-                    Vector3.Lerp(
-                        startPosition, endPosition, time / speed);
+                time = 0;
+                Vector3 start = drone.transform.position;
+                Vector3 end = (isReverse) ? startPosition : endPosition;
+                while (time < speed)
+                {
+                    drone.transform.position =
+                        Vector3.Lerp(
+                            start, end, time / speed);
 
-                time += Time.deltaTime;
+                    time += Time.deltaTime;
 
-                yield return null;
+                    yield return null;
+                }
+
+                yield return new WaitForSeconds(1);
+                isReverse = !isReverse;
             }
         }
     }

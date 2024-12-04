@@ -4,27 +4,32 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+
     public int count;
     [SerializeField]
     private GameObject[] targets;
-
-    // 싱글턴 패턴 적용
-    private static GameManager _instance;
-    public static GameManager Instance { get; private set; }
     [SerializeField]
-    private GameObject SponPoint;
 
-    private void Awake()
+
+    public GameObject player;
+    // 싱글톤 인스턴스
+    public static GameManager Instance { get; private set; }
+
+    void Awake()
     {
+        // 싱글톤 인스턴스 설정
         if (Instance != null && Instance != this)
         {
-            Destroy(gameObject); // 중복된 인스턴스를 파괴
+            Destroy(gameObject);
             return;
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject); // 씬이 전환되어도 유지
+
+        // 씬 전환시 유지
+        DontDestroyOnLoad(gameObject);
     }
+
     void Start()
     {
         count = 0;
@@ -34,11 +39,15 @@ public class GameManager : MonoBehaviour
     {
         if (count == 4)
         {
-            //여기에 이스터에그 4개 다 부신경우
+            // 사슴을 전부 잡은 경우
+            Debug.Log("All Easter eggs destroyed!");
         }
-        else
-        {
-            //이스터에그를 다 부셔보라고 하기
-        }
+
+    }
+
+    public void AddCount()
+    {
+        count++;
+        Debug.Log($"Current count: {count}");
     }
 }
