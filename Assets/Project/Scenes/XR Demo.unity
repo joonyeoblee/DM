@@ -73443,7 +73443,7 @@ MonoBehaviour:
   target: {fileID: 0}
   followSpeed: 5
   rotationSpeed: 10
-  stopDistance: 1
+  stopDistance: 3
 --- !u!114 &4914630153839041303
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103396,7 +103396,7 @@ MonoBehaviour:
   target: {fileID: 0}
   followSpeed: 5
   rotationSpeed: 10
-  stopDistance: 1
+  stopDistance: 3
 --- !u!33 &7317106701541188271
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -114835,7 +114835,7 @@ MonoBehaviour:
   target: {fileID: 0}
   followSpeed: 5
   rotationSpeed: 10
-  stopDistance: 5
+  stopDistance: 3
 --- !u!4 &8561180595339644091
 Transform:
   m_ObjectHideFlags: 0
@@ -121196,7 +121196,7 @@ MonoBehaviour:
   target: {fileID: 0}
   followSpeed: 5
   rotationSpeed: 10
-  stopDistance: 1
+  stopDistance: 3
 --- !u!33 &8934856708886707265
 MeshFilter:
   m_ObjectHideFlags: 0

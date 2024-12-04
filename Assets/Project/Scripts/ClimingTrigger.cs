@@ -2,11 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using BNG;
+using UnityEngine.InputSystem;
+using Unity.VisualScripting;
 
 public class ClimingTrigger : MonoBehaviour
 {
     [SerializeField]
     private GameObject triggered;
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Alpha3))
+        {
+            StartDialogueAfterDelay();
+        }
+    }
 
     public void AttiveTriggred()
     {
