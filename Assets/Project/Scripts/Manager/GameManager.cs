@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     private GameObject[] targets;
     [SerializeField]
 
-
     public GameObject player;
     // 싱글톤 인스턴스
     public static GameManager Instance { get; private set; }
@@ -50,4 +49,6 @@ public class GameManager : MonoBehaviour
         count++;
         Debug.Log($"Current count: {count}");
     }
+
+
 }

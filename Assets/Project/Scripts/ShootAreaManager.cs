@@ -21,6 +21,7 @@ public class ShootAreaManager : MonoBehaviour
         if (count == 3)
         {
             spawner.GetComponent<ClientStrategy>().ShootGameStart();
+            GameManager.Instance.player.GetComponent<CSVReader>().StartDialogue();
         }
     }
 }
