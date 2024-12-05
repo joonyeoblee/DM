@@ -19,7 +19,7 @@ public class CSVReader : MonoBehaviour
     void Start()
     {
         SetFilePath();
-        StartDialogue(0);
+        StartCoroutine(StartFirstDialogueAfterDelay());
     }
     void SetFilePath()
     {
@@ -52,6 +52,12 @@ public class CSVReader : MonoBehaviour
         {
             Debug.Log("CSV 파일을 찾을 수 없습니다. 경로를 확인해 주세요.");
         }
+    }
+
+    IEnumerator StartFirstDialogueAfterDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        StartDialogue(0);
     }
 
     public void StartDialogue(int index)

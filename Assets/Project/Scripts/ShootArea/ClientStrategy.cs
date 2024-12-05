@@ -6,23 +6,28 @@ namespace Strategy
 {
     public class ClientStrategy : MonoBehaviour
     {
-        public GameObject dronePrefab; // 드론 프리팹
-        public List<Vector3> spawnPoints = new List<Vector3>(); // 스폰 포인트 리스트
-
-        private List<GameObject> _activeDrones = new List<GameObject>(); // 활성화된 드론 리스트
+        // 드론 프리팹
+        public GameObject dronePrefab;
+        // 스폰 포인트 리스트
+        public List<Vector3> spawnPoints = new List<Vector3>();
+        // 활성화된 드론 리스트
+        private List<GameObject> _activeDrones = new List<GameObject>();
+        // 전략메뉴 컴포넌트 리스트
         private List<IManeuverBehaviour> _components = new List<IManeuverBehaviour>();
 
+
+        // 드론 생성
         private void SpawnDrone(int i)
         {
             if (dronePrefab == null)
             {
-                Debug.LogError("Drone prefab is not assigned!");
+                Debug.LogError("드론 프리팹이 할당되지 않았습니다!");
                 return;
             }
 
             if (spawnPoints == null || spawnPoints.Count == 0)
             {
-                Debug.LogError("Spawn points are not assigned!");
+                Debug.LogError("스폰 포인트가 할당되지 않았습니다!");
                 return;
             }
 
@@ -54,6 +59,7 @@ namespace Strategy
             }
         }
 
+        // 타켓 시작 드론 생성 시작
         public void ShootGameStart()
         {
             Debug.Log("ShootGameStart");
@@ -87,14 +93,6 @@ namespace Strategy
             }
         }
 
-        void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Alpha1))
-            {
-                OnAllDronesDestroyed();
-
-            }
-        }
         private void OnAllDronesDestroyed()
         {
             // 첫 번째 대사 출력

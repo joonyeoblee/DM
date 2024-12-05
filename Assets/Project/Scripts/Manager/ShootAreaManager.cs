@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class ShootAreaManager : MonoBehaviour
 {
-    // spawne을 트리거 하기위한 count
+    // spawner을 트리거 하기위한 count
     [SerializeField]
     private int count;
 

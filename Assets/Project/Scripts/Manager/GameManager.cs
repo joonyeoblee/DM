@@ -7,12 +7,15 @@ public class GameManager : MonoBehaviour
 
     public int count;
     [SerializeField]
+
+    // 사슴 오브젝트 배열
     public GameObject[] targets;
     [SerializeField]
     private GameObject playerCanvas;
 
     public GameObject player;
 
+    // CSVReader 스크립트관리 변수
     public CSVReader csvReader;
     // 싱글톤 인스턴스
     public static GameManager Instance { get; private set; }
@@ -41,14 +44,14 @@ public class GameManager : MonoBehaviour
     {
         if (count == 4)
         {
-            // 사슴을 전부 잡은 경우
-            Debug.Log("All Easter eggs destroyed!");
+            // 사슴을 전부 잡은 경우 플레이어 캔버스 활성화
             playerCanvas.SetActive(true);
 
         }
 
     }
 
+    // 사슴을 잡을때마다 카운트 증가
     public void AddCount()
     {
         count++;
