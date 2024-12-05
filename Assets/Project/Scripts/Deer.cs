@@ -5,7 +5,7 @@ using UnityEngine;
 public class Deer : MonoBehaviour
 {
     public Transform target; // 따라갈 대상
-    public float followSpeed = 5f; // 따라가는 속도
+    public float followSpeed = 2f; // 따라가는 속도
     public float rotationSpeed = 10f; // 회전 속도
     public float stopDistance = 1f; // 멈추는 거리
 
@@ -41,6 +41,11 @@ public class Deer : MonoBehaviour
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             }
         }
+    }
+    // 사망 처리 속도 0으로 변경
+    public void Dead()
+    {
+        followSpeed = 0f;
     }
 
 }

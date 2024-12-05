@@ -87,7 +87,7 @@ public class CSVReader : MonoBehaviour
 
             currentLineIndex++;
 
-            yield return new WaitForSeconds(1f); // 1초 대기 후 대사 변경
+            yield return new WaitForSeconds(2f); // 1초 대기 후 대사 변경
         }
     }
 }

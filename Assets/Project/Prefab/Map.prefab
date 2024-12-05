@@ -7507,6 +7507,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5465002164583091832}
+        m_TargetAssemblyTypeName: ClimbingManager, Assembly-CSharp
+        m_MethodName: StartDialogueAfterDelay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onButtonUp:
     m_PersistentCalls:
       m_Calls: []
@@ -22949,9 +22961,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!114 &7728079425138779993
 MonoBehaviour:
@@ -35950,9 +35962,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 14
   m_CollisionDetection: 0
 --- !u!114 &6610731561881573333
 MonoBehaviour:
@@ -35961,7 +35973,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2826235292504261588}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5cdea428d48e2bb488d33d5f75c39bb9, type: 3}
   m_Name: 
@@ -55482,13 +55494,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4526673547914554108}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.75270164, z: -0, w: 0.65836185}
-  m_LocalPosition: {x: -16.393, y: -1.736, z: -17.768}
-  m_LocalScale: {x: 0.5441571, y: 0.522266, z: 0.8328923}
+  m_LocalRotation: {x: -0, y: 0.7130575, z: -0, w: 0.7011056}
+  m_LocalPosition: {x: -0.20925775, y: 0.57911044, z: 0.055878136}
+  m_LocalScale: {x: 0.2698389, y: 2.4391112, z: 0.4130181}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5884586057090602325}
-  m_Father: {fileID: 571933048899218737}
+  m_Father: {fileID: 726121196791011663}
   m_LocalEulerAnglesHint: {x: 0, y: 97.65, z: 0}
 --- !u!33 &8988560833661386837
 MeshFilter:
@@ -95125,7 +95137,6 @@ Transform:
   - {fileID: 5041713001539942365}
   - {fileID: 7904560610244227526}
   - {fileID: 7979274617936337351}
-  - {fileID: 230423540737899900}
   - {fileID: 6378142709587642389}
   - {fileID: 6051298319649846106}
   - {fileID: 3428986585638252969}
@@ -95155,10 +95166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timerText: {fileID: 6261260232401213073}
-  endTimerText: {fileID: 0}
-  isTimerStart: 0
+  endTimerText: {fileID: 843148208478045923}
+  isTimerStart: 1
   endTimer: 0
-  progressTime: 0
 --- !u!1 &7257519834560745756
 GameObject:
   m_ObjectHideFlags: 0
@@ -114525,6 +114535,7 @@ Transform:
   - {fileID: 2602161901839998282}
   - {fileID: 3144933986375165337}
   - {fileID: 8203952915715500699}
+  - {fileID: 230423540737899900}
   m_Father: {fileID: 571933048899218737}
   m_LocalEulerAnglesHint: {x: 0, y: 6.681, z: 0}
 --- !u!33 &6529327523294796995

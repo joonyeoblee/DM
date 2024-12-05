@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-
     public int count;
     [SerializeField]
 
@@ -15,7 +14,7 @@ public class GameManager : MonoBehaviour
 
     public GameObject player;
 
-    // CSVReader 스크립트관리 변수
+    // CSVReader 스크립트 관리 변수
     public CSVReader csvReader;
     // 싱글톤 인스턴스
     public static GameManager Instance { get; private set; }
@@ -37,7 +36,19 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        // 카운트 초기화
         count = 0;
+
+        // 플레이어 위치 및 회전 초기화
+        if (player != null)
+        {
+            player.transform.localPosition = new Vector3(-672f, 0.6f, 824.5f);
+            player.transform.localRotation = Quaternion.identity;
+        }
+        else
+        {
+            Debug.LogWarning("Player object is not assigned in GameManager.");
+        }
     }
 
     void Update()
@@ -46,17 +57,13 @@ public class GameManager : MonoBehaviour
         {
             // 사슴을 전부 잡은 경우 플레이어 캔버스 활성화
             playerCanvas.SetActive(true);
-
         }
-
     }
 
-    // 사슴을 잡을때마다 카운트 증가
+    // 사슴을 잡을 때마다 카운트 증가
     public void AddCount()
     {
         count++;
         Debug.Log($"Current count: {count}");
     }
-
-
 }
