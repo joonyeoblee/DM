@@ -9,8 +9,10 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     public GameObject[] targets;
     [SerializeField]
+    private GameObject playerCanvas;
 
     public GameObject player;
+
     public CSVReader csvReader;
     // 싱글톤 인스턴스
     public static GameManager Instance { get; private set; }
@@ -41,6 +43,8 @@ public class GameManager : MonoBehaviour
         {
             // 사슴을 전부 잡은 경우
             Debug.Log("All Easter eggs destroyed!");
+            playerCanvas.SetActive(true);
+
         }
 
     }

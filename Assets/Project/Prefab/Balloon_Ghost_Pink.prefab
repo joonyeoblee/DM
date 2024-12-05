@@ -5048,15 +5048,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5980376377915728834}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0.5735764, z: 0, w: 0.8191521}
+  m_LocalPosition: {x: 0, y: 0, z: -5.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 217541538276403166}
   - {fileID: 1565699659806717396}
   m_Father: {fileID: 6061600443386087488}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -70, z: 0}
 --- !u!95 &5053855980870361033
 Animator:
   serializedVersion: 7
@@ -5152,7 +5152,6 @@ GameObject:
   - component: {fileID: 6061600443386087488}
   - component: {fileID: 4268056309640441886}
   - component: {fileID: 1495883975555062428}
-  - component: {fileID: 4505051422317516008}
   - component: {fileID: 6722707892768560762}
   m_Layer: 0
   m_Name: Balloon_Ghost_Pink
@@ -5169,15 +5168,15 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6207210725423678395}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0.6073181, z: -0, w: 0.7944588}
-  m_LocalPosition: {x: 9.37801, y: 0, z: -22.023693}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.28041428, y: 0.28041428, z: 0.28041428}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6871377155385661450}
   - {fileID: 6747533027522170465}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: -74.792, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &4268056309640441886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5249,18 +5248,6 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -4909677054370795134, guid: 5e10cb482ddf4e1448aba29c794128e2, type: 3}
---- !u!114 &4505051422317516008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6207210725423678395}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ac3d5cd8ae5647ebae2e929b004671a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!23 &6722707892768560762
 MeshRenderer:
   m_ObjectHideFlags: 0

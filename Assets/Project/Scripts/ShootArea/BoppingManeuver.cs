@@ -9,7 +9,8 @@ namespace Strategy
 
         public void Maneuver(Drone drone)
         {
-            StartCoroutine(Bopple(drone));
+            if (drone != null)
+                StartCoroutine(Bopple(drone));
         }
 
         IEnumerator Bopple(Drone drone)

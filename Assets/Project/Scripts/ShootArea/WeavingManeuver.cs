@@ -9,7 +9,8 @@ namespace Strategy
 
         public void Maneuver(Drone drone)
         {
-            StartCoroutine(Weave(drone));
+            if (drone != null)
+                StartCoroutine(Weave(drone));
         }
 
         IEnumerator Weave(Drone drone)

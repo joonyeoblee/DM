@@ -23,10 +23,15 @@ public class Deer : MonoBehaviour
             // 멈출 거리보다 멀면 이동
             if (distance > stopDistance)
             {
-                // 위치 이동
-                Vector3 direction = (target.position - transform.position).normalized;
+                // 목표 위치와 현재 위치 차이에서 Y축 제거
+                Vector3 direction = (target.position - transform.position);
+                direction.y = 0; // Y축 이동 제거
+                direction = direction.normalized;
+
+                // 이동 위치 계산
                 transform.position += direction * followSpeed * Time.deltaTime;
             }
+
 
             // 타겟을 향해 회전
             Vector3 lookDirection = target.position - transform.position;

@@ -9,7 +9,8 @@ namespace Strategy
 
         public void Maneuver(Drone drone)
         {
-            StartCoroutine(Fallback(drone));
+            if (drone != null)
+                StartCoroutine(Fallback(drone));
         }
 
         IEnumerator Fallback(Drone drone)
